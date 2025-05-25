@@ -30,6 +30,41 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
             overflow: hidden;
             border: 1px solid #e2e8f0;
+            position: relative;
+        }
+
+        /* Language Switch Button */
+        .language-switch {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .language-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.8);
+            padding: 4px 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 0.75em;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .language-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .language-btn::before {
+            content: '🇪🇸';
+            font-size: 0.9em;
         }
 
         .header {
@@ -588,6 +623,11 @@
                 border-left: none;
                 border-top: 1px solid #e2e8f0;
             }
+
+            .language-switch {
+                top: 12px;
+                right: 15px;
+            }
         }
 
         @media (max-width: 768px) {
@@ -617,12 +657,27 @@
             .tech-grid {
                 grid-template-columns: 1fr;
             }
+
+            .language-switch {
+                top: 10px;
+                right: 10px;
+            }
+
+            .language-btn {
+                font-size: 0.7em;
+                padding: 3px 8px;
+            }
         }
     </style>
 </head>
 
 <body>
     <div class="container">
+        <!-- Language Switch Button -->
+        <div class="language-switch">
+            <a href="index_es.html" class="language-btn">Ver en español</a>
+        </div>
+
         <!-- HEADER -->
         <div class="header">
             <div class="header-content">
