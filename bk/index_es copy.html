@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Alexander Vargas Beltrán - Lebenslauf</title>
+    <title>David Alexander Vargas Beltrán - CV</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
@@ -33,14 +33,12 @@
             position: relative;
         }
 
-        /* Language Switch Buttons */
+        /* Language Switch Button */
         .language-switch {
             position: absolute;
             top: 15px;
             right: 20px;
             z-index: 1000;
-            display: flex;
-            gap: 8px;
         }
 
         .language-btn {
@@ -64,13 +62,8 @@
             border-color: rgba(255, 255, 255, 0.3);
         }
 
-        .language-btn.spanish::before {
-            content: '🇪🇸';
-            font-size: 0.9em;
-        }
-
-        .language-btn.english::before {
-            content: '🇬🇧';
+        .language-btn::before {
+            content: '🇩🇪';
             font-size: 0.9em;
         }
 
@@ -503,14 +496,14 @@
         .availability-item p {
             color: #4a5568;
             font-size: 0.72em;
-            line-height: 1;
+            line-height: 1.2;
         }
 
         .key-strengths {
             background: white;
             border: 1px solid #e2e8f0;
             border-radius: 8px;
-            padding: 5px;
+            padding: 15px;
         }
 
         .key-strengths ul {
@@ -668,8 +661,6 @@
             .language-switch {
                 top: 10px;
                 right: 10px;
-                flex-direction: column;
-                gap: 4px;
             }
 
             .language-btn {
@@ -682,10 +673,9 @@
 
 <body>
     <div class="container">
-        <!-- Language Switch Buttons -->
+        <!-- Language Switch Button -->
         <div class="language-switch">
-            <a href="index_es.html" class="language-btn spanish">Ver en español</a>
-            <a href="index_en.html" class="language-btn english">View in English</a>
+            <a href="index.html" class="language-btn">auf Deutsch sehen</a>
         </div>
 
         <!-- HEADER -->
@@ -697,10 +687,10 @@
 
                 <div class="header-main">
                     <h1 class="name">DAVID ALEXANDER VARGAS BELTRÁN</h1>
-                    <p class="job-title">Data Analyst & Projektmanager</p>
-                    <p class="tagline">17+ Jahre Erfahrung in Datenanalyse, Projektmanagement und Entwicklung von
-                        Unternehmenslösungen</p>
-                    <div class="status-badge">🇦🇹 Verfügbar in Österreich • Flexibel für operative Rollen</div>
+                    <p class="job-title">Data Analyst & Project Manager</p>
+                    <p class="tagline">17+ años en análisis de datos, gestión de proyectos y desarrollo de soluciones
+                        empresariales</p>
+                    <div class="status-badge">🇦🇹 Disponible en Austria • Flexible para roles operativos</div>
                 </div>
 
                 <div class="contact-section">
@@ -717,12 +707,11 @@
                         <span class="contact-icon">🌐</span>
                     </div>
                     <div class="contact-item">
-                        <span>Bruck an der Mur, Österreich</span>
+                        <span>Bruck an der Mur, Austria</span>
                         <span class="contact-icon">📍</span>
                     </div>
                     <div class="contact-item">
-                        <span>Deutsch: B1 (laufend)</span>
-                        <span>Englisch: A2 (laufend)</span>
+                        <span>Alemán: B1 (en progreso)</span>
                         <span class="contact-icon">🗣️</span>
                     </div>
                 </div>
@@ -734,147 +723,144 @@
             <!-- PRIMARY SECTION -->
             <div class="primary-section">
                 <section class="section">
-                    <h2 class="section-title">Berufsprofil</h2>
+                    <h2 class="section-title">Perfil Profesional</h2>
                     <div class="intro-text">
-                        Erfahrener Profi mit über 17 Jahren Erfahrung in Datenanalyse, Projektmanagement und Entwicklung
-                        von Unternehmenslösungen. Spezialist für Python, SQL, Power BI und Flask mit solider Erfahrung
-                        in digitaler Transformation und Prozessoptimierung. Derzeit Anpassung an den österreichischen
-                        Markt mit vollem Engagement für organisatorisches Wachstum.
+                        Profesional con más de 17 años de experiencia en análisis de datos, gestión de proyectos y
+                        desarrollo de soluciones empresariales. Especialista en Python, SQL, Power BI y Flask con sólida
+                        experiencia en transformación digital y optimización de procesos. Actualmente adaptándome al
+                        mercado austriaco con total compromiso para contribuir al crecimiento organizacional.
                     </div>
 
                     <div class="flexibility-note">
-                        <h4>🎯 Aktueller Fokus der Jobsuche</h4>
-                        <p>Ich bin offen für operative, administrative oder technische Junior-Positionen, die es mir
-                            ermöglichen, sofort beizutragen, während ich meine Deutsch- und Englischkenntnisse
-                            perfektioniere. Mein
-                            Ziel ist es, vom ersten Tag an Wert zu demonstrieren und innerhalb der Organisation zu
-                            strategischeren Rollen in Datenanalyse und Projektmanagement zu wachsen.</p>
+                        <h4>🎯 Enfoque Actual de Búsqueda Laboral</h4>
+                        <p>Estoy abierto a posiciones operativas, administrativas o técnicas junior que me permitan
+                            contribuir inmediatamente mientras perfecciono mis habilidades en alemán. Mi objetivo es
+                            demostrar valor desde el primer día y crecer dentro de la organización hacia roles más
+                            estratégicos en análisis de datos y gestión de proyectos.</p>
                     </div>
                 </section>
 
                 <section class="section">
-                    <h2 class="section-title">Berufserfahrung</h2>
+                    <h2 class="section-title">Experiencia Profesional</h2>
 
                     <div class="experience-item">
                         <div class="job-header">
                             <div>
-                                <div class="job-title-main">Senior Datenanalyst</div>
+                                <div class="job-title-main">Product Manager - Soluciones TI</div>
                                 <div class="company-name">MR BIT SAS</div>
                             </div>
-                            <div class="date-badge">Nov 2024 - Apr 2025</div>
+                            <div class="date-badge">Nov 2024 - Abr 2025</div>
                         </div>
-                        <p class="job-description">Analyse robuster Datensätze, statistische Analyse, Entwicklung von
-                            Datenmodellen, BI-Design.</p>
+                        <p class="job-description">Gestión de desarrollo de productos tecnológicos, coordinando equipos
+                            y traduciendo necesidades de negocio en soluciones técnicas.</p>
                         <ul class="achievements">
-                            <li>Entwicklung strategischer Dashboards mit Python und Flask für Entscheidungsfindung</li>
-                            <li>Implementierung von ETL-Prozessen und Automatisierung von Reports mit SQL</li>
-                            <li>Projektmanagement nach Agile- und Scrum-Methodologien</li>
-                            <li>Modernisierung von Datenmanagementsystemen</li>
+                            <li>Desarrollo de dashboards estratégicos con Python y Flask para toma de decisiones</li>
+                            <li>Implementación de procesos ETL y automatización de reportes con SQL</li>
+                            <li>Gestión de proyectos siguiendo metodologías Agile y Scrum</li>
+                            <li>Modernización de sistemas de gestión de datos</li>
                         </ul>
                     </div>
 
                     <div class="experience-item">
                         <div class="job-header">
                             <div>
-                                <div class="job-title-main">Operationsmanager</div>
+                                <div class="job-title-main">Gerente de Operaciones</div>
                                 <div class="company-name">NUEVA EPS S.A.</div>
                             </div>
-                            <div class="date-badge">Aug 2023 - Nov 2024</div>
+                            <div class="date-badge">Ago 2023 - Nov 2024</div>
                         </div>
-                        <p class="job-description">Optimierung operativer Prozesse durch Datenanalyse und Entwicklung
-                            automatisierter Lösungen.</p>
+                        <p class="job-description">Optimización de procesos operativos mediante análisis de datos y
+                            desarrollo de soluciones automatizadas.</p>
                         <ul class="achievements">
-                            <li>Beseitigung von 350 Informationssilos durch umfassende Datenmodellierung</li>
-                            <li>Entwicklung von Power BI Dashboards für operative KPI-Überwachung</li>
-                            <li>Prozessautomatisierung mit Python, Flask und PostgreSQL</li>
-                            <li>Management digitaler Transformationsprojekte</li>
-                            <li>Implementierung von ETL-Architektur für Data Governance</li>
+                            <li>Eliminación de 350 silos de información mediante modelado integral de datos</li>
+                            <li>Desarrollo de dashboards en Power BI para monitoreo de KPIs operativos</li>
+                            <li>Automatización de procesos con Python, Flask y PostgreSQL</li>
+                            <li>Gestión de proyectos de transformación digital</li>
+                            <li>Implementación de arquitectura ETL para gobernanza de datos</li>
                         </ul>
                     </div>
 
                     <div class="experience-item">
                         <div class="job-header">
                             <div>
-                                <div class="job-title-main">Direktor Analytics und Daten</div>
+                                <div class="job-title-main">Director Analítica y Datos</div>
                                 <div class="company-name">MR BIT SAS</div>
                             </div>
-                            <div class="date-badge">Jan 2023 - Aug 2023</div>
+                            <div class="date-badge">Ene 2023 - Ago 2023</div>
                         </div>
-                        <p class="job-description">Design und Implementierung datenbasierter Strategien für
-                            unternehmerische Entscheidungsfindung.</p>
+                        <p class="job-description">Diseño e implementación de estrategias basadas en análisis de datos
+                            para toma de decisiones empresariales.</p>
                         <ul class="achievements">
-                            <li>200% Unternehmenswertssteigerung durch predictive Analytics</li>
-                            <li>Entwicklung von Automatisierungsmodellen mit Python und SQL</li>
-                            <li>Management internationaler Expansionsprojekte</li>
-                            <li>Implementierung von Executive Dashboards mit BI-Tools</li>
+                            <li>Revalorización empresarial del 200% mediante análisis predictivo</li>
+                            <li>Desarrollo de modelos de automatización con Python y SQL</li>
+                            <li>Gestión de proyectos de expansión internacional</li>
+                            <li>Implementación de dashboards ejecutivos con herramientas BI</li>
                         </ul>
                     </div>
 
                     <div class="experience-item">
                         <div class="job-header">
                             <div>
-                                <div class="job-title-main">Stellvertretender Operationsleiter</div>
+                                <div class="job-title-main">Subgerente de Operaciones</div>
                                 <div class="company-name">Colmédica Medicina Prepagada</div>
                             </div>
-                            <div class="date-badge">Dez 2017 - Sep 2022</div>
+                            <div class="date-badge">Dic 2017 - Sep 2022</div>
                         </div>
-                        <p class="job-description">Führung operativer Prozesse und Automatisierungsprojekte im
-                            Gesundheitswesen.</p>
+                        <p class="job-description">Liderazgo de procesos operativos y proyectos de automatización en
+                            entorno de salud.</p>
                         <ul class="achievements">
-                            <li>Management von Technologieprojekten für nationale Impfplattform</li>
-                            <li>Entwicklung integrierter Systeme mit APIs und Flask</li>
-                            <li>Prozessoptimierung: Verbesserung von 70% auf 90% bei Schlüsselindikatoren</li>
-                            <li>Administration von Datenbanken mit über 30 Millionen Datensätzen</li>
-                            <li>Implementierung von BI-Tools für operative Analyse</li>
+                            <li>Gestión de proyectos tecnológicos para plataforma de vacunación nacional</li>
+                            <li>Desarrollo de sistema integrado con APIs y Flask</li>
+                            <li>Optimización de procesos: mejora del 70% al 90% en indicadores clave</li>
+                            <li>Administración de bases de datos con más de 30 millones de registros</li>
+                            <li>Implementación de herramientas BI para análisis operativo</li>
                         </ul>
                     </div>
                 </section>
 
                 <section class="section">
-                    <h2 class="section-title">Ausbildung</h2>
+                    <h2 class="section-title">Formación Académica</h2>
                     <div class="education-grid">
                         <div class="education-item">
-                            <div class="edu-title">MBA in Innovation</div>
+                            <div class="edu-title">MBA en Innovación</div>
                             <div class="edu-details">
-                                <span class="edu-institution">Universidad EAN - Kolumbien</span>
+                                <span class="edu-institution">Universidad EAN - Colombia</span>
                                 <span class="edu-year">2021</span>
                             </div>
-                            <div class="edu-note">*Nostrifizierung in Österreich als Masterstudium im Prozess</div>
+                            <div class="edu-note">*En proceso de homologación en Austria como Masterstudium</div>
                         </div>
 
                         <div class="education-item">
-                            <div class="edu-title">Spezialisierung Projektmanagement</div>
+                            <div class="edu-title">Especialización en Gerencia de Proyectos</div>
                             <div class="edu-details">
-                                <span class="edu-institution">Universidad EAN - Kolumbien</span>
+                                <span class="edu-institution">Universidad EAN - Colombia</span>
                                 <span class="edu-year">2013</span>
                             </div>
-                            <div class="edu-note">*Nostrifizierung in Österreich im Prozess</div>
+                            <div class="edu-note">*En proceso de homologación en Austria</div>
                         </div>
 
                         <div class="education-item">
-                            <div class="edu-title">Betriebswirtschaft</div>
+                            <div class="edu-title">Administración de Empresas</div>
                             <div class="edu-details">
-                                <span class="edu-institution">Universidad Cundinamarca - Kolumbien</span>
+                                <span class="edu-institution">Universidad Cundinamarca - Colombia</span>
                                 <span class="edu-year">2009</span>
                             </div>
-                            <div class="edu-note">*Nostrifizierung in Österreich als Bakkalaureat im Prozess</div>
+                            <div class="edu-note">*En proceso de homologación en Austria como Bakkalaureat</div>
                         </div>
                     </div>
-                </section>
-
                 </section>
             </div>
 
             <!-- SIDEBAR -->
             <div class="sidebar">
                 <div class="sidebar-section">
-                    <h3 class="sidebar-title">Hauptkompetenzen</h3>
+                    <h3 class="sidebar-title">Competencias Principales</h3>
                     <div class="skills-container">
                         <div class="skill-category">
-                            <h4>Datenanalyse</h4>
+                            <h4>Análisis de Datos</h4>
                             <div class="skill-item">
                                 <span class="skill-name">Python & Pandas</span>
-                                <span class="skill-level">Fortgeschritten</span>
+                                <span class="skill-level">Avanzado</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 90%;"></div>
@@ -882,7 +868,7 @@
 
                             <div class="skill-item">
                                 <span class="skill-name">SQL & PostgreSQL</span>
-                                <span class="skill-level">Fortgeschritten</span>
+                                <span class="skill-level">Avanzado</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 85%;"></div>
@@ -890,7 +876,7 @@
 
                             <div class="skill-item">
                                 <span class="skill-name">Power BI</span>
-                                <span class="skill-level">Fortgeschritten</span>
+                                <span class="skill-level">Avanzado</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 88%;"></div>
@@ -898,18 +884,18 @@
                         </div>
 
                         <div class="skill-category">
-                            <h4>Entwicklung & Automatisierung</h4>
+                            <h4>Desarrollo & Automatización</h4>
                             <div class="skill-item">
                                 <span class="skill-name">Flask & APIs</span>
-                                <span class="skill-level">Mittel-Fortgeschritten</span>
+                                <span class="skill-level">Intermedio-Avanzado</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 80%;"></div>
                             </div>
 
                             <div class="skill-item">
-                                <span class="skill-name">ETL & Automatisierung</span>
-                                <span class="skill-level">Fortgeschritten</span>
+                                <span class="skill-name">ETL & Automatización</span>
+                                <span class="skill-level">Avanzado</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 85%;"></div>
@@ -917,18 +903,18 @@
                         </div>
 
                         <div class="skill-category">
-                            <h4>Projektmanagement</h4>
+                            <h4>Gestión de Proyectos</h4>
                             <div class="skill-item">
                                 <span class="skill-name">Scrum & Agile</span>
-                                <span class="skill-level">Experte</span>
+                                <span class="skill-level">Experto</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 95%;"></div>
                             </div>
 
                             <div class="skill-item">
-                                <span class="skill-name">Agile Methodologien</span>
-                                <span class="skill-level">Experte</span>
+                                <span class="skill-name">Metodologías Ágiles</span>
+                                <span class="skill-level">Experto</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 92%;"></div>
@@ -938,10 +924,10 @@
                 </div>
 
                 <div class="sidebar-section">
-                    <h3 class="sidebar-title">Ergänzende Zertifizierungen</h3>
+                    <h3 class="sidebar-title">Certificaciones Complementarias</h3>
                     <div class="cert-sidebar-container">
                         <div class="cert-sidebar-item">
-                            <div class="cert-name-sidebar">KI-Entwicklung</div>
+                            <div class="cert-name-sidebar">Desarrollo de IA</div>
                             <div class="cert-source-sidebar">IBM • 2024</div>
                         </div>
                         <div class="cert-sidebar-item">
@@ -953,11 +939,11 @@
                             <div class="cert-source-sidebar">IBM • 2024</div>
                         </div>
                         <div class="cert-sidebar-item">
-                            <div class="cert-name-sidebar">Python Programmierung</div>
+                            <div class="cert-name-sidebar">Programación Python</div>
                             <div class="cert-source-sidebar">Coursera • 2023</div>
                         </div>
                         <div class="cert-sidebar-item">
-                            <div class="cert-name-sidebar">JavaScript Entwicklung</div>
+                            <div class="cert-name-sidebar">Desarrollo JavaScript</div>
                             <div class="cert-source-sidebar">NEXT UNIVERSITY • 2023</div>
                         </div>
                         <div class="cert-sidebar-item">
@@ -965,18 +951,18 @@
                             <div class="cert-source-sidebar">IBM • 2023</div>
                         </div>
                         <div class="cert-sidebar-item">
-                            <div class="cert-name-sidebar">Trading Professionell</div>
+                            <div class="cert-name-sidebar">Trading Profesional</div>
                             <div class="cert-source-sidebar">MDTA Academy • 2022</div>
                         </div>
                         <div class="cert-sidebar-item">
-                            <div class="cert-name-sidebar">SQL Design</div>
+                            <div class="cert-name-sidebar">Diseño SQL</div>
                             <div class="cert-source-sidebar">SENA • 2021</div>
                         </div>
                     </div>
                 </div>
 
                 <div class="sidebar-section">
-                    <h3 class="sidebar-title">Technologien mit Erfahrung</h3>
+                    <h3 class="sidebar-title">Tecnologías con Experiencia</h3>
                     <div class="tech-grid">
                         <div class="tech-item">Python</div>
                         <div class="tech-item">SQL</div>
@@ -989,58 +975,58 @@
                         <div class="tech-item">Git</div>
                         <div class="tech-item">HTML/CSS</div>
                         <div class="tech-item">JavaScript</div>
-                        <div class="tech-item">Excel Fortgeschritten</div>
+                        <div class="tech-item">Excel Avanzado</div>
                     </div>
                 </div>
 
                 <div class="sidebar-section">
-                    <h3 class="sidebar-title">Sprachen</h3>
+                    <h3 class="sidebar-title">Idiomas</h3>
                     <div class="language-item">
-                        <span>Spanisch</span>
-                        <span class="language-level">Muttersprache</span>
+                        <span>Español</span>
+                        <span class="language-level">Nativo</span>
                     </div>
                     <div class="language-item">
-                        <span>Deutsch</span>
+                        <span>Alemán</span>
                         <span class="language-level">B1</span>
                     </div>
                     <div class="language-item">
-                        <span>Englisch</span>
-                        <span class="language-level">A2</span>
+                        <span>Inglés</span>
+                        <span class="language-level">A1</span>
                     </div>
                 </div>
 
                 <div class="sidebar-section">
-                    <h3 class="sidebar-title">Verfügbarkeit</h3>
+                    <h3 class="sidebar-title">Disponibilidad</h3>
                     <div class="availability-grid">
                         <div class="availability-item">
-                            <h4>Aktuelle Arbeitszeit</h4>
-                            <p>Teilzeit (7-14 Uhr ca.). Flexibel nach Bedarf.</p>
+                            <h4>Horario Actual</h4>
+                            <p>Medio tiempo (7am-2pm aprox). Flexible según necesidades.</p>
                         </div>
                         <div class="availability-item">
                             <h4>Sept 2025</h4>
-                            <p>Vollzeit verfügbar</p>
+                            <p>Tiempo completo disponible</p>
                         </div>
                         <div class="availability-item">
-                            <h4>Arbeitsweise</h4>
-                            <p>Vor Ort, hybrid oder remote</p>
+                            <h4>Modalidad</h4>
+                            <p>Presencial, híbrido o remoto</p>
                         </div>
                         <div class="availability-item">
-                            <h4>Beginn</h4>
-                            <p>Sofort verfügbar</p>
+                            <h4>Inicio</h4>
+                            <p>Disponible inmediatamente</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="sidebar-section">
-                    <h3 class="sidebar-title">Schlüsselstärken</h3>
+                    <h3 class="sidebar-title">Fortalezas Clave</h3>
                     <div class="key-strengths">
                         <ul>
-                            <li>17+ Jahre Unternehmenserfahrung</li>
-                            <li>Nachgewiesene quantifizierbare Ergebnisse</li>
-                            <li>Hohe kulturelle Anpassungsfähigkeit</li>
-                            <li>Fokus auf kontinuierliches Lernen</li>
-                            <li>Langfristiges Engagement</li>
-                            <li>Flexibilität bei Rollen und Funktionen</li>
+                            <li>17+ años experiencia empresarial</li>
+                            <li>Resultados cuantificables comprobados</li>
+                            <li>Adaptabilidad cultural alta</li>
+                            <li>Enfoque en aprendizaje continuo</li>
+                            <li>Compromiso a largo plazo</li>
+                            <li>Flexibilidad de roles y funciones</li>
                         </ul>
                     </div>
                 </div>

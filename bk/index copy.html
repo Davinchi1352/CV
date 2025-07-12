@@ -33,14 +33,12 @@
             position: relative;
         }
 
-        /* Language Switch Buttons */
+        /* Language Switch Button */
         .language-switch {
             position: absolute;
             top: 15px;
             right: 20px;
             z-index: 1000;
-            display: flex;
-            gap: 8px;
         }
 
         .language-btn {
@@ -64,13 +62,8 @@
             border-color: rgba(255, 255, 255, 0.3);
         }
 
-        .language-btn.spanish::before {
+        .language-btn::before {
             content: '🇪🇸';
-            font-size: 0.9em;
-        }
-
-        .language-btn.english::before {
-            content: '🇬🇧';
             font-size: 0.9em;
         }
 
@@ -668,8 +661,6 @@
             .language-switch {
                 top: 10px;
                 right: 10px;
-                flex-direction: column;
-                gap: 4px;
             }
 
             .language-btn {
@@ -682,10 +673,9 @@
 
 <body>
     <div class="container">
-        <!-- Language Switch Buttons -->
+        <!-- Language Switch Button -->
         <div class="language-switch">
-            <a href="index_es.html" class="language-btn spanish">Ver en español</a>
-            <a href="index_en.html" class="language-btn english">View in English</a>
+            <a href="index_es.html" class="language-btn">Ver en español</a>
         </div>
 
         <!-- HEADER -->
@@ -709,7 +699,7 @@
                         <span class="contact-icon">📧</span>
                     </div>
                     <div class="contact-item">
-                        <span>+43 066567088060</span>
+                        <span>+43 66567088060</span>
                         <span class="contact-icon">📱</span>
                     </div>
                     <div class="contact-item">
@@ -722,7 +712,6 @@
                     </div>
                     <div class="contact-item">
                         <span>Deutsch: B1 (laufend)</span>
-                        <span>Englisch: A2 (laufend)</span>
                         <span class="contact-icon">🗣️</span>
                     </div>
                 </div>
@@ -744,9 +733,8 @@
 
                     <div class="flexibility-note">
                         <h4>🎯 Aktueller Fokus der Jobsuche</h4>
-                        <p>Ich bin offen für operative, administrative oder technische Junior-Positionen, die es mir
-                            ermöglichen, sofort beizutragen, während ich meine Deutsch- und Englischkenntnisse
-                            perfektioniere. Mein
+                        <p>Ich bin offen für operative, administrative oder junior technische Positionen, die es mir
+                            ermöglichen, sofort beizutragen, während ich meine Deutschkenntnisse vervollkommne. Mein
                             Ziel ist es, vom ersten Tag an Wert zu demonstrieren und innerhalb der Organisation zu
                             strategischeren Rollen in Datenanalyse und Projektmanagement zu wachsen.</p>
                     </div>
@@ -758,13 +746,13 @@
                     <div class="experience-item">
                         <div class="job-header">
                             <div>
-                                <div class="job-title-main">Senior Datenanalyst</div>
+                                <div class="job-title-main">Product Manager - IT-Lösungen</div>
                                 <div class="company-name">MR BIT SAS</div>
                             </div>
                             <div class="date-badge">Nov 2024 - Apr 2025</div>
                         </div>
-                        <p class="job-description">Analyse robuster Datensätze, statistische Analyse, Entwicklung von
-                            Datenmodellen, BI-Design.</p>
+                        <p class="job-description">Management von Technologieproduktentwicklung, Teamkoordination und
+                            Übersetzung von Geschäftsanforderungen in technische Lösungen.</p>
                         <ul class="achievements">
                             <li>Entwicklung strategischer Dashboards mit Python und Flask für Entscheidungsfindung</li>
                             <li>Implementierung von ETL-Prozessen und Automatisierung von Reports mit SQL</li>
@@ -941,36 +929,36 @@
                     <h3 class="sidebar-title">Ergänzende Zertifizierungen</h3>
                     <div class="cert-sidebar-container">
                         <div class="cert-sidebar-item">
-                            <div class="cert-name-sidebar">KI-Entwicklung</div>
-                            <div class="cert-source-sidebar">IBM • 2024</div>
+                            <div class="cert-name-sidebar">AI Entwicklung</div>
+                            <div class="cert-source-sidebar">IBM • 2025</div>
                         </div>
                         <div class="cert-sidebar-item">
                             <div class="cert-name-sidebar">Git & GitHub Essentials</div>
-                            <div class="cert-source-sidebar">IBM • 2024</div>
+                            <div class="cert-source-sidebar">IBM • 2025</div>
                         </div>
                         <div class="cert-sidebar-item">
                             <div class="cert-name-sidebar">Python Data Science</div>
-                            <div class="cert-source-sidebar">IBM • 2024</div>
+                            <div class="cert-source-sidebar">IBM • 2025</div>
                         </div>
                         <div class="cert-sidebar-item">
                             <div class="cert-name-sidebar">Python Programmierung</div>
-                            <div class="cert-source-sidebar">Coursera • 2023</div>
+                            <div class="cert-source-sidebar">Coursera • 2024</div>
                         </div>
                         <div class="cert-sidebar-item">
                             <div class="cert-name-sidebar">JavaScript Entwicklung</div>
-                            <div class="cert-source-sidebar">NEXT UNIVERSITY • 2023</div>
+                            <div class="cert-source-sidebar">NEXT UNIVERSITY • 2019</div>
                         </div>
                         <div class="cert-sidebar-item">
                             <div class="cert-name-sidebar">Python Data Engineering</div>
-                            <div class="cert-source-sidebar">IBM • 2023</div>
+                            <div class="cert-source-sidebar">IBM • 2025</div>
                         </div>
                         <div class="cert-sidebar-item">
                             <div class="cert-name-sidebar">Trading Professionell</div>
                             <div class="cert-source-sidebar">MDTA Academy • 2022</div>
                         </div>
                         <div class="cert-sidebar-item">
-                            <div class="cert-name-sidebar">SQL Design</div>
-                            <div class="cert-source-sidebar">SENA • 2021</div>
+                            <div class="cert-name-sidebar">SQL Datenbankdesign</div>
+                            <div class="cert-source-sidebar">SENA • 2019</div>
                         </div>
                     </div>
                 </div>
@@ -1005,7 +993,7 @@
                     </div>
                     <div class="language-item">
                         <span>Englisch</span>
-                        <span class="language-level">A2</span>
+                        <span class="language-level">A1</span>
                     </div>
                 </div>
 

@@ -33,12 +33,14 @@
             position: relative;
         }
 
-        /* Language Switch Button */
+        /* Language Switch Buttons */
         .language-switch {
             position: absolute;
             top: 15px;
             right: 20px;
             z-index: 1000;
+            display: flex;
+            gap: 8px;
         }
 
         .language-btn {
@@ -62,8 +64,13 @@
             border-color: rgba(255, 255, 255, 0.3);
         }
 
-        .language-btn::before {
+        .language-btn.german::before {
             content: '🇩🇪';
+            font-size: 0.9em;
+        }
+
+        .language-btn.english::before {
+            content: '🇬🇧';
             font-size: 0.9em;
         }
 
@@ -661,6 +668,8 @@
             .language-switch {
                 top: 10px;
                 right: 10px;
+                flex-direction: column;
+                gap: 4px;
             }
 
             .language-btn {
@@ -673,9 +682,10 @@
 
 <body>
     <div class="container">
-        <!-- Language Switch Button -->
+        <!-- Language Switch Buttons -->
         <div class="language-switch">
-            <a href="index.html" class="language-btn">auf Deutsch sehen</a>
+            <a href="index.html" class="language-btn german">Auf Deutsch</a>
+            <a href="index_en.html" class="language-btn english">View in English</a>
         </div>
 
         <!-- HEADER -->
@@ -712,6 +722,7 @@
                     </div>
                     <div class="contact-item">
                         <span>Alemán: B1 (en progreso)</span>
+                        <span>Inglés: A2 (en progreso)</span>
                         <span class="contact-icon">🗣️</span>
                     </div>
                 </div>
@@ -734,9 +745,9 @@
                     <div class="flexibility-note">
                         <h4>🎯 Enfoque Actual de Búsqueda Laboral</h4>
                         <p>Estoy abierto a posiciones operativas, administrativas o técnicas junior que me permitan
-                            contribuir inmediatamente mientras perfecciono mis habilidades en alemán. Mi objetivo es
-                            demostrar valor desde el primer día y crecer dentro de la organización hacia roles más
-                            estratégicos en análisis de datos y gestión de proyectos.</p>
+                            contribuir inmediatamente mientras perfecciono mis habilidades en alemán e inglés. Mi
+                            objetivo es demostrar valor desde el primer día y crecer dentro de la organización hacia
+                            roles más estratégicos en análisis de datos y gestión de proyectos.</p>
                     </div>
                 </section>
 
@@ -746,13 +757,13 @@
                     <div class="experience-item">
                         <div class="job-header">
                             <div>
-                                <div class="job-title-main">Product Manager - Soluciones TI</div>
+                                <div class="job-title-main">Analista Senior de Datos</div>
                                 <div class="company-name">MR BIT SAS</div>
                             </div>
                             <div class="date-badge">Nov 2024 - Abr 2025</div>
                         </div>
-                        <p class="job-description">Gestión de desarrollo de productos tecnológicos, coordinando equipos
-                            y traduciendo necesidades de negocio en soluciones técnicas.</p>
+                        <p class="job-description">Analisis de datasets robustos, analisis estadístico, desarrollo de
+                            modelos de datos, diseño de BI.</p>
                         <ul class="achievements">
                             <li>Desarrollo de dashboards estratégicos con Python y Flask para toma de decisiones</li>
                             <li>Implementación de procesos ETL y automatización de reportes con SQL</li>
@@ -991,7 +1002,7 @@
                     </div>
                     <div class="language-item">
                         <span>Inglés</span>
-                        <span class="language-level">A1</span>
+                        <span class="language-level">A2</span>
                     </div>
                 </div>
 
